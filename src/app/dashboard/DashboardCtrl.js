@@ -1,5 +1,4 @@
 (function () {
-  'use strict';
 
   angular.module('bamApp')
       .controller('bamDashboardCtrl', bamDashboardCtrl);
@@ -8,9 +7,9 @@
 	  
 	  var vm = this;
 	  
-	  var vm.test_test = "Hello test text";  
+	  vm.test_test = "Hello test text";  
 	  
   }
   
   
-}();
+})();

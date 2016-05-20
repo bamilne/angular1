@@ -1,6 +1,5 @@
 (function() {
 	
-	use strict;
 	
 	angular.module('bamApp').directive('bamDashboard', function() {
 		
@@ -10,7 +9,7 @@
 			controllerAs: 'vm',
 			templateUrl: 'dashboard.html'
 			
-		}
+		};
 		
 	});
 	
