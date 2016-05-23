@@ -7,7 +7,7 @@
 			
 			controller: 'bamDashboardCtrl',
 			controllerAs: 'vm',
-			templateUrl: 'dashboard.html'
+			templateUrl: 'app/dashboard/dashboard.html'
 			
 		};
 		

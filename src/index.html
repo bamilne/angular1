@@ -2,7 +2,9 @@
 <html lang="en" ng-app="bamApp">
 
 <script src="../bower_components/angular/angular.js"></script>
+<script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 <script src="../src/app/app.js"></script>
+<script src="../src/app/dashboard/dashboard.service.js"></script>
 <script src="../src/app/dashboard/dashboard.directive.js"></script>
 <script src="../src/app/dashboard/DashboardCtrl.js"></script>
 
@@ -10,7 +12,12 @@
 
 <body>
 
-<bam-dashboard></bam-dashboard>
+
+    <a ui-sref="home">Home</a>&nbsp<a ui-sref="dashboard">Dashboard</a>
+
+
+
+ <div ui-view></div>
 
 </body>
 

@@ -1,0 +1,7 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+        "files.autoSave": "afterDelay",
+
+    // Controls the delay in ms after which a dirty file is saved automatically. Only applies when "files.autoSave" is set to "afterDelay"
+    "files.autoSaveDelay": 1000
+}

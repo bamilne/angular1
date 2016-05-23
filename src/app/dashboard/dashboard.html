@@ -1,3 +1,13 @@
-asdfasdf
 
-<h1>{{vm.test_test}}</h2>
+<h1>{{vm.dashboardTitle}}</h1>
+
+<div ng-repeat="arrays in vm.bamArray">
+    english-name: {{ arrays.name }}  , spanish-name: {{ arrays.translation }}
+</div>
+
+<h1>Json Data from Service</h1>
+
+<div ng-repeat="messageitem in vm.messageitems">
+    <b>{{ messageitem.name }}</b>
+    <p>{{ messageitem.about }}</p>
+</div>
